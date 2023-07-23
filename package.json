@@ -2,17 +2,21 @@
   "name": "pokevault",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "test": "nodemon app.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Wrongbat",
+  "license": "MIT",
   "dependencies": {
     "discord-interactions": "^3.4.0",
+    "dotenv": "^16.3.1",
     "express": "^4.18.2"
   },
   "devDependencies": {
-    "eslint": "^8.45.0"
+    "eslint": "^8.45.0",
+    "nodemon": "^2.0.15"
   }
 }
